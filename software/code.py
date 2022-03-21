@@ -10,7 +10,7 @@ from adafruit_matrixportal.matrix import Matrix
 import adafruit_scd30
 
 # --| User Config |----
-CO2_CUTOFFS = (1000, 2000, 5000)
+CO2_CUTOFFS = (650, 700, 800)
 UPDATE_RATE = 1
 # ---------------------
 
@@ -26,7 +26,7 @@ scd30.ambient_pressure = 1100
 # the display
 matrix = Matrix(width=64, height=32, bit_depth=6)
 display = matrix.display
-display.rotation = 90  # matrixportal up
+display.rotation = 270  # matrixportal up
 # display.rotation = 270 # matrixportal down
 
 # current condition smiley face
