@@ -10,7 +10,7 @@ from adafruit_matrixportal.matrix import Matrix
 import adafruit_scd30
 
 # --| User Config |----
-CO2_CUTOFFS = (650, 700, 800)
+CO2_CUTOFFS = (750, 850, 1000)
 UPDATE_RATE = 1
 # ---------------------
 
